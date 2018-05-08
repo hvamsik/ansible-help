@@ -1,0 +1,9 @@
+---
+localhost:
+  proj1:
+    package_name: "test-package"
+    version: "latest"
+  proj2:
+    package_name: "test-package2"
+    version: "latest"
+   

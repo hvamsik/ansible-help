@@ -1,0 +1,8 @@
+---
+- name: 'initializing variables'
+  set_fact:
+    ppackage_name: "{{ item }}"
+  with_items: "{{ localhost[project_name]['package_name'] }}"
+  
+- name: 'display variables'
+  debug: msg="{{ ppackage_name }}"
